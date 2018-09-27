@@ -1,0 +1,99 @@
+
+
+body{
+  background-color:lightgrey;
+  font-family: 'Ubuntu Mono', monospace;
+  line-height: 1.5em;
+  margin:0;
+}
+
+.whole{
+  border-style: groove;
+  border-color:#cc9966;
+  border-width:20px;
+}
+
+
+
+
+
+.img{
+  margin-left:150px;
+  margin-top: 50px;
+}
+
+.information{
+  margin-left: 750px;
+}
+
+.information h1{
+  font-size: 4em;
+}
+
+.information p{
+  margin-left: 100px;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:blue;
+}
+
+.Education{
+  margin-left: 100px;
+  margin-right: 700px;
+  background-color: grey;
+  padding-left:50px;
+  padding-right: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+
+
+}
+
+.Education h2{
+  text-decoration: underline;
+}
+
+
+.Skills{
+  margin-left:750px;
+  margin-right:100px;
+  border-style: solid;
+  border-width: 5px;
+  border:25px, solid;
+  border-color: #cc9966;
+
+  padding-left: 50px;
+  padding-right: 20px;
+
+}
+
+
+.Role{
+  margin-left: 100px;
+  margin-right: 700px;
+  padding-left: 50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color: #cc9966;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
