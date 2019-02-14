@@ -5,74 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Xiaohan Zhao Resume</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- connect css file -->
   <link rel="stylesheet" href="style.css">
-  <img src="image/Pic.jpg" alt="My photo" width="500" class="img">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body class="whole">
-
-  <div class="information">
-    <h1>Xiaohan Zhao</h1>
-
-    <p>
-      <strong>Email</strong>: <a href="xz2757@tc.columbia.edu">xz2758@tc.columbia.edu</a>
-      <br><strong>Phone</strong>: 201-888-2152
-    </p>
-  </div>
-
-  <div class="Education">
-    <p>
-     <h2>Education</h2>
-     <ul>
-       <li>
-      <strong>Stoneleigh-Burnham School</strong> - High School
-       </li>
-     <br>  <li>
-        <strong>Stevens Institue of Technbology</strong> - Bachelor Degree
-         <br> <em>Major: Music and Technology</em>
-       </li>
-     <br>  <li>
-      <strong>Teachers College Columbia University</strong> - Master Degree
-       <br> <em>Major: Communication and Education</em>
-       </li>
-     </ul>
-   </p>
-  </div>
-
-<div class="Skills">
-  <p>
-    <h2>Skills</h2>
-    <h4>Softwares:</h4>
-    Pro Tools, Ableton Live, Sibelius, Audacity, Logic Pro X, Microsoft Office, Excel, PowerPoint
-  </p>
-
-</div>
-
-<div class="Role">
-  <p>
-    <h2>Role</h2>
-    <ol>
-      <li>Dancer</li>
-      <li>Pianist</li>
-      <li>Entrepreneur</li>
-      <li>Mother</li>
-      <li>Restaurant Owner</li>
-    </ol>
-  </p>
+    <carousel></carousel>
+    <information></information>
+    <education></education>
+    <skill></skill>
+    <role></role>
+    <feedback></feedback>
 
 
-  </dl>
-
-</div>
+    <script src="tag/carousel.tag" type="riot/tag"></script>
+    <script src="tag/information.tag" type="riot/tag"></script>
+    <script src="tag/education.tag" type="riot/tag"></script>
+    <script src="tag/skill.tag" type="riot/tag"></script>
+    <script src="tag/role.tag" type="riot/tag"></script>
+    <script src="tag/feedback.tag" type="riot/tag"></script>
 
 
 
 <div style="margin-top:100px;"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/riot@3.10.3/riot+compiler.min.js"></script>
+<script>
+  riot.mount('*');
+</script>
+
 </body>
 </html>
